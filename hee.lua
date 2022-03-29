@@ -3,7 +3,7 @@ if not game:IsLoaded() then
 until game:IsLoaded() end
 
 repeat wait()
-    wait(1)
+    wait(10)
 until game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam").Visible == true
 
 spawn(function()
